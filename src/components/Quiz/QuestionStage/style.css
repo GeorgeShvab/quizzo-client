@@ -1,0 +1,9 @@
+.variant.selected > .variant__text-container {
+  border-color: var(--purple);
+}
+
+.variants {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

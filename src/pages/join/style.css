@@ -1,0 +1,35 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100svh;
+  padding: 30px 0 30px;
+}
+
+.join__title-containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3 0 auto;
+}
+
+.join__title {
+  color: #333333;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.join-input {
+  margin-bottom: 15px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.join__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}

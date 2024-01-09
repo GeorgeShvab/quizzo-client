@@ -1,0 +1,13 @@
+.participant {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.participant__name {
+  color: #333333;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4;
+}

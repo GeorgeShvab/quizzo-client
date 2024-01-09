@@ -1,0 +1,25 @@
+.participants__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.participant__place {
+  color: #333333;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.participant.first-place .participant__place {
+  color: #d9be4c;
+}
+
+.participant.second-place .participant__place {
+  color: #d0d2d7;
+}
+
+.participant.third-place .participant__place {
+  color: #c07a50;
+}

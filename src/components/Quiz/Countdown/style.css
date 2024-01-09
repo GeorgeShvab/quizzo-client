@@ -1,0 +1,38 @@
+.countdown__timer {
+  font-size: 160px;
+  color: var(--purple);
+  font-weight: 800;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.countdown__title {
+  color: #333333;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.countdown__sub-title {
+  text-align: center;
+  color: #888888;
+  font-size: 14px;
+}
+
+.countdown__text-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  top: 0;
+  padding: 20px 30px;
+}

@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+.loading-dots > span:nth-child(1) {
+  animation: flashing 1s linear 0s infinite;
+}
+.loading-dots > span:nth-child(2) {
+  animation: flashing 1s linear 0.25s infinite;
+}
+.loading-dots > span:nth-child(3) {
+  animation: flashing 1s linear 0.5s infinite;
+}
+
+@keyframes flashing {
+  0% {
+    color: currentColor;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: currentColor;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--purple);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
